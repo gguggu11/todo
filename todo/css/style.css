@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    font-family: 'Gaegu', cursive;
+    font-size: 22px;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    color:#fff;
+    background: linear-gradient(35deg,#D3CCE3,#E9E4F0);
+    padding:0.8em;
+    text-shadow: 5px 5px #9e9ea5;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.input-container{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    
+}
+.input-text{
+    width: 90%;
+    padding: 0.3em;
+   border: none;
+  
+}
+.add-button{
+    width:10%;
+    border:none;
+  
+    outline: none;
+}
+.add-button:hover{
+    cursor: pointer;
+    background:#E9E4F0;
+}
+.list{
+    list-style: none;
+}
+.list li{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    align-items: center;
+}
+.like{
+    flex:1;
+
+}
+.item{
+    flex:8;
+}
+.manage{
+    flex:0.5;
+    display: flex;
+    justify-content: space-between;
+}
+.like i {
+    color:#a0b2c7;
+}
+
+.check {
+     color:#a6a6c9;
+}
+
+.clear{
+    color:#b894af;
+}
+
+
+.done .item{
+    text-decoration: line-through;
+}
+.done .check{
+    visibility: hidden;
+}
